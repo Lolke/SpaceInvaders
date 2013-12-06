@@ -69,7 +69,7 @@
         For Me.x = 1 To NumOfInvaders
             IRight(x) = True
         Next
-        InvaderSpeed = 1
+        InvaderSpeed = 3
         InvaderDrop = 42
     End Sub
 
