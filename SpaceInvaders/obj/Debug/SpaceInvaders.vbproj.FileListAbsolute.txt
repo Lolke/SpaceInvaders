@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.xml
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.FormMain.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.vbproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.xml
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.pdb
