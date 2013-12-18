@@ -22,59 +22,46 @@ Partial Class FormMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormMain))
-        Me.Shooter = New System.Windows.Forms.PictureBox()
-        Me.TimerMain = New System.Windows.Forms.Timer(Me.components)
-        Me.Shot = New System.Windows.Forms.PictureBox()
-        CType(Me.Shooter, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Shot, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Shooter
+        'Button1
         '
-        Me.Shooter.BackColor = System.Drawing.Color.Transparent
-        Me.Shooter.Image = CType(resources.GetObject("Shooter.Image"), System.Drawing.Image)
-        Me.Shooter.InitialImage = CType(resources.GetObject("Shooter.InitialImage"), System.Drawing.Image)
-        Me.Shooter.Location = New System.Drawing.Point(268, 399)
-        Me.Shooter.Name = "Shooter"
-        Me.Shooter.Size = New System.Drawing.Size(50, 33)
-        Me.Shooter.TabIndex = 0
-        Me.Shooter.TabStop = False
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
+        Me.Button1.Location = New System.Drawing.Point(242, 202)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(110, 47)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Start"
+        Me.Button1.UseVisualStyleBackColor = True
         '
-        'TimerMain
+        'Label1
         '
-        Me.TimerMain.Enabled = True
-        Me.TimerMain.Interval = 1
-        '
-        'Shot
-        '
-        Me.Shot.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Shot.Location = New System.Drawing.Point(290, 382)
-        Me.Shot.Name = "Shot"
-        Me.Shot.Size = New System.Drawing.Size(8, 20)
-        Me.Shot.TabIndex = 1
-        Me.Shot.TabStop = False
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.Label1.Location = New System.Drawing.Point(170, 32)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(255, 31)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Space Invader Love"
         '
         'FormMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(614, 431)
-        Me.Controls.Add(Me.Shot)
-        Me.Controls.Add(Me.Shooter)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
-        Me.MinimizeBox = False
         Me.Name = "FormMain"
-        Me.Text = "Space Invaders"
-        CType(Me.Shooter, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Shot, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Text = "Space Invaders Love"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Shooter As System.Windows.Forms.PictureBox
-    Friend WithEvents TimerMain As System.Windows.Forms.Timer
-    Friend WithEvents Shot As System.Windows.Forms.PictureBox
-
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class
